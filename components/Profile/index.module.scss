@@ -1,0 +1,14 @@
+.Profile {
+  display: flex;
+  &__ImgWrapper {
+    margin-right: 0.875rem;
+    > * {
+      border-radius: 50%;
+    }
+  }
+  &__Heading {
+    margin: 0;
+    max-width: 310px;
+    line-height: 1.8;
+  }
+}

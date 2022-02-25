@@ -1,0 +1,18 @@
+:root {
+  --primary-color: #d23669;
+  --text-color: #222;
+  --title-color: #222;
+  --pink: #ffa7c4;
+  --bg: #fff;
+}
+:root[data-theme="dark"] {
+  --primary-color: var(--pink);
+  --text-color: hsla(0, 0%, 100%, 0.88);
+  --title-color: #fff;
+  --bg: #282c35;
+}
+body {
+  background: var(--bg);
+  color: var(--text-color);
+  transition: all 200ms;
+}
